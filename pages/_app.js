@@ -28,7 +28,7 @@ const App = ({ Component, pageProps }) => {
 
   return (
     <ThirdwebProvider
-      activeChain="goerli"
+      activeChain="polygon"
     >
       <Provider store={store}>
         <ChakraProvider theme={theme}>
